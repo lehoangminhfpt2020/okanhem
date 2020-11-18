@@ -53,6 +53,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return String.format("%-30s%-30s%-30s%-30d\n",studentID,name,address,phone);
+        return String.format("%-30s%-30s%-30s%-30s\n",studentID,name,address,phone);
     }
 }
