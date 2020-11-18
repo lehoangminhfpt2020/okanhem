@@ -10,8 +10,7 @@ public class StudentController {
 
     public void displayStudent(List<Student> list){
         System.out.printf("%-30s%-30s%-30s%-30s\n","StudentID","Student Name","Address","Phone");
-        System.out.printf("%-30s%-30s%-30s%-30s\n","B01010","Nguyen Tuan Anh ","Ha Noi","0904818238");
-        System.out.printf("%-30s%-30s%-30s%-30s\n","B10394","Nguyen Hoang Hai ","Hai Duong","0494949494");
+       
         for(int i = 0; i < list.size();i++){
             System.out.print(list.get(i));
         }
